@@ -1,0 +1,14 @@
+To install tesseract on redhat
+
+Kindly show the following links for more details
+
+https://tesseract-ocr.github.io/tessdoc/Installation.html
+https://tesseract-ocr.github.io/tessdoc/InstallationOpenSuse.html
+
+
+Installation tesseract with arabic and english languages
+
+yum-config-manager --add-repo https://download.opensuse.org/repositories/home:/Alexander_Pozdnyakov/RHEL_7/
+yum update
+yum install tesseract
+yum install tesseract-langpack-ara tesseract-langpack-eng
